@@ -1,101 +1,61 @@
+# Práctica 5.1: Pruebas Automatizadas de UI y API con Playwright
 
-# 🥘 Recetas de mi abuela
+## Descripción del proyecto
 
-### Sabores que cuentan historias, recetas que nunca se olvidan.
+**Nombre:** Recetas de mi abuela
 
-## 1. Descripción del proyecto
+**Tecnología de pruebas:** Playwright con JavaScript.
 
-Recetas de mi abuela es una aplicación web interactiva
-desarrollada con React.js que busca preservar y compartir
-la tradición gastronómica de la República Dominicana.
+**Aplicación:** Recetario digital desarrollado con React, JavaScript, HTML5 y CSS3, dedicado a preservar y compartir recetas tradicionales de la República Dominicana.
 
-El proyecto está inspirado en las recetas familiares de
-una señora de San Juan, incluyendo preparaciones como
-el chacá, moro dominicano, pastelón y dulce de leche.
+## Objetivo
 
-Su propósito es conservar la memoria culinaria y facilitar
-el acceso a las recetas tradicionales mediante una
-plataforma digital sencilla y atractiva.
+Implementar pruebas automatizadas para verificar el correcto funcionamiento de la interfaz de usuario y validar las respuestas de una API externa.
 
-## 2. Integrantes del grupo
-
-- Grupo: Reto 5
-- Integrante 1: [Stanley Rosario Hernandez] [100578322]
-- Integrante 2: [Sadhely Batista Lora] [100614047]
-- Integrante 3: [Engels Mejia] [100551802]
-- Integrante 4: [Bilionel Fernandez] [100386328]
-- Integrante 5: [Enmanuel De Jesus Segura] [100663358]
-
-## 3. Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - React.js
 - JavaScript
 - HTML5
 - CSS3
-- Vite
-- Git
-- GitHub
+- Playwright
+- JSONPlaceholder
+- Git y GitHub
 
-## 4. Funcionalidades
+## Pruebas de interfaz de usuario (UI)
 
-- Visualización de recetas tradicionales.
-- Buscador de recetas.
-- Filtros por categorías.
-- Consulta de ingredientes y preparación.
-- Sistema de recetas favoritas.
-- Guardado de favoritos en localStorage.
-- Modo claro y modo oscuro.
-- Diseño adaptable a dispositivos móviles.
-- Animaciones CSS.
+Se desarrollaron seis pruebas automatizadas:
 
-## 5. Organización del proyecto
+1. Verificar que la página principal cargue correctamente.
+2. Comprobar que se visualicen las cuatro recetas principales.
+3. Verificar que el menú de navegación esté visible.
+4. Comprobar la navegación entre las secciones.
+5. Verificar que el botón para visualizar una receta funcione.
+6. Comprobar que el botón para cerrar los detalles funcione.
 
-- components/: componentes reutilizables de React.
-- data/: información de las recetas.
-- public/images/: imágenes del recetario.
-- App.jsx: componente principal.
-- styles.css: estilos de la aplicación.
+## Pruebas de API
 
-## 6. ¿Qué aprendimos?
+Se desarrollaron tres pruebas automatizadas utilizando JSONPlaceholder:
 
-Durante el desarrollo aprendimos a crear aplicaciones
-utilizando React.js y JavaScript.
+1. Consultar una publicación y verificar la respuesta HTTP 200.
+2. Consultar un recurso inexistente y verificar la respuesta HTTP 404.
+3. Consultar una lista de publicaciones y validar la estructura de los datos JSON.
 
-También practicamos la creación de componentes
-reutilizables, el manejo de estados con useState,
-el uso de useEffect y la comunicación entre componentes
-mediante propiedades.
+## Resultados
 
-Aprendimos a implementar búsquedas, filtros,
-favoritos, almacenamiento local y temas visuales.
+Se ejecutaron nueve pruebas automatizadas:
 
-Además, utilizamos Git para registrar los avances
-y mantener un historial de cambios del proyecto.
+- Seis pruebas de interfaz de usuario.
+- Tres pruebas de API.
 
-## 7. Instalación y ejecución
+Las nueve pruebas finalizaron satisfactoriamente.
 
-Clonar el repositorio:
+## Evidencias
 
-git clone [ENLACE_DEL_REPOSITORIO]
+Se incluyen capturas de pantalla de las pruebas de interfaz, las pruebas de API, el reporte general y la aplicación funcionando.
 
-Entrar en la carpeta:
+## Conclusión
 
-cd recetas-de-mi-abuela
+Esta práctica permitió aprender a utilizar Playwright para automatizar pruebas de aplicaciones web. También permitió comprobar la navegación, los botones y las funcionalidades principales de una aplicación, además de validar respuestas HTTP y estructuras JSON provenientes de una API externa.
 
-Instalar dependencias:
-
-npm install
-
-Iniciar el proyecto:
-
-npm run dev
-
-## 8. Despliegue
-
-Enlace de la aplicación:
-[PENDIENTE DE PUBLICAR]
-
-## 9. Autoría
-
-Proyecto académico desarrollado para representar
-y preservar la cultura gastronómica dominicana.
+La experiencia demuestra la importancia de las pruebas automatizadas para detectar errores y mejorar la calidad y confiabilidad del software.
