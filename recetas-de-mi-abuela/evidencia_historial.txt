@@ -1,0 +1,35 @@
+
+=========================================
+EVIDENCIA DEL HISTORIAL DE GIT
+PROYECTO: RECETAS DE MI ABUELA
+=========================================
+
+1. INFORMACION DEL PROYECTO
+
+Nombre: Recetas de mi abuela
+Tecnologia principal: React.js
+Herramientas: JavaScript, HTML5, CSS3 y Git
+
+2. HISTORIAL DE COMMITS
+
+[Pegar aqui el resultado de git log --oneline]
+
+3. ESTADO DEL REPOSITORIO
+
+[Pegar aqui el resultado de git status]
+
+4. REPOSITORIO REMOTO
+
+[Pegar aqui el resultado de git remote -v]
+
+5. DESCRIPCION DE LOS AVANCES
+
+- Etapa 1: Creacion del proyecto React con Vite.
+- Etapa 2: Diseño de la pagina principal y tarjetas.
+- Etapa 3: Detalles, ingredientes y preparacion.
+- Etapa 4: Buscador, filtros, favoritos y modo oscuro.
+- Etapa 5: Optimizacion y documentacion.
+
+=========================================
+FIN DE LA EVIDENCIA
+=========================================
